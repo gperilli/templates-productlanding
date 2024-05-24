@@ -147,10 +147,7 @@
   }
 }
 
-#gpf-form {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .form-inputs-container {
   display: flex;
@@ -168,35 +165,6 @@
   z-index: 100;
 }
 
-#gpf-form>input[type="text"],
-#gpf-form>input[type="email"],
-#gpf-form>input[type="number"],
-#gpf-form>input[type="password"],
-#gpf-form>input[type="date"],
-#gpf-form>input[type="time"],
-#gpf-form>select,
-.form-inputs {
-  margin-bottom: 20px;
-  height: 60px;
-  border-radius: 10px;
-  border: 1px solid #808080;
-  outline: none;
-  font-size: 24px;
-  padding-left: 10px;
-}
-
-
-
-#gpf-form>.gpf-form__checkbox-container {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
-
-#gpf-form > label {
-  margin-bottom: 8px;
-}
-
 #stripe-widget {
   border-radius: 10px;
   border: 1px solid #808080;
@@ -205,18 +173,6 @@
   padding-left: 10px;
   margin-bottom: 20px;
 }
-
-#gpf-form>input[type="submit"] {
-  height: 60px;
-  border-radius: 20px;
-  padding: 10px;
-  font-size: 24px;
-  font-weight: 600;
-  border: 0px;
-  color: #fff;
-  cursor: pointer;
-}
-
 
 .form-validation-messages {
   color: red;
@@ -302,8 +258,6 @@
   flex-direction: row;
   justify-content: end;
 }
-
-
 
 .title-text-item>a>h2,
 .title-text-item>a>h1 {
